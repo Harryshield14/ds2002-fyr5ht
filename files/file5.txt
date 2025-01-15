@@ -1,0 +1,98 @@
+    1  clear
+    2  pwd
+    3  ls
+    4  ls -al
+    5  cd.
+    6  cd .
+    7  pwd
+    8  cd ..
+    9  pwd
+   10  cd ..
+   11  pwd
+   12  clear
+   13  ls -al
+   14  cd ~
+   15  pwd
+   16  clear
+   17  ls-al
+   18  ls -al
+   19  clear
+   20  cd /workspaces/
+   21  cd /workspaces/ds2002-fyr5ht/
+   22  ls -al
+   23  touch file1.txt
+   24* touch
+   25  touch file1.txt
+   26  touch file2.txt
+   27  touch file3.txt
+   28  ls -al
+   29  echo "a man a plan a canal panama"
+   30  echo "a man a plan a canal panama" > file1.txt
+   31  ls -al
+   32  clear
+   33  cat file1.txt 
+   34  cat file1.txt > file2.txt 
+   35  cat file1.txt > file3.txt 
+   36  ls -al
+   37  echo "this should be a second line" >> file2.txt
+   38  cat file2.txt 
+   39  echo "this should be a second line" > file2.txt 
+   40  cat file2.txt 
+   41  clear
+   42  cat /dev/null > file3.txt 
+   43  ls -al
+   44  mkdir files
+   45  clear
+   46  ls -al
+   47  mv file1.txt files/
+   48  ls -al
+   49  cat files
+   50  ls -al files
+   51  clear
+   52  ls -al
+   53  touch file4.txt
+   54  tocuh file5.txt
+   55  touch file5.txt
+   56  cp file2.txt file6,txt
+   57  cp file3.txt file7.txt
+   58  ls -al
+   59  mv file6,txt file6.txt
+   60  ls -al
+   61  clear
+   62  ls -al
+   63  touch script.sh
+   64  mv file*.txt files/
+   65  ls -al files/
+   66  clear
+   67  ls -al
+   68  touch myscript.py
+   69  ls -al
+   70  clear
+   71  ls -al
+   72  rm files/file7.txt 
+   73  ls -al file
+   74  ls -al files/
+   75  clear
+   76  ls -al
+   77  top
+   78  clear
+   79  ps
+   80  ps aux
+   81  clear
+   82  cd files/
+   83  ls -al
+   84  ps aux > file6,txt
+   85  ls -al
+   86  mv file6,txt file6.txt
+   87  ls -al
+   88  clear
+   89  head file6.txt
+   90  clear
+   91  head -n 3 file6.txt 
+   92  tail file6.txt 
+   93  tail -n 2 file6.txt 
+   94  clear
+   95  history
+   96  ls -al
+   97  clear
+   98  history > file5.txt 
