@@ -13,7 +13,7 @@ def download_file(url, file_path):
 URL = "https://upload.wikimedia.org/wikipedia/commons/2/2c/Rotating_earth_%28large%29.gif"
 FILE_NAME = "Download.gif"
 BUCKET_NAME = "ds2002-fyr5ht"
-EXPIRATION = 60
+EXPIRATION = 604800
 
 download_file(URL, FILE_NAME) 
 
